@@ -1,0 +1,6 @@
+web:
+  restart: always
+  image: topiaruss/techhello-web
+  ports:
+    - "8000"
+  command: python /usr/src/app/techhello.py
